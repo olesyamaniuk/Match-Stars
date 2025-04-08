@@ -1,5 +1,5 @@
 $(function () {
-  $(".g-gallery-list").slick({
+  $(".h-gallery-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -14,7 +14,7 @@ $(function () {
 });
 
 $(function () {
-  $(".g-reviews-list").slick({
+  $(".h-reviews-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -25,12 +25,12 @@ $(function () {
     dots: true,
     centerMode: true,
     cssEase: "linear",
-    prevArrow: ".g-reviews-list-left",
-    nextArrow: ".g-reviews-list-right",
+    prevArrow: ".h-reviews-list-left",
+    nextArrow: ".h-reviews-list-right",
   });
 });
 $(function () {
-  $(".g-how-list").slick({
+  $(".h-how-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -40,12 +40,12 @@ $(function () {
     speed: 1000,
     centerMode: true,
     cssEase: "linear",
-    prevArrow: ".g-how-list-left",
-    nextArrow: ".g-how-list-right",
+    prevArrow: ".h-how-list-left",
+    nextArrow: ".h-how-list-right",
   });
 });
 $(function () {
-  $(".g-features-list").slick({
+  $(".h-features-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -56,7 +56,7 @@ $(function () {
     dots: true,
     centerMode: true,
     cssEase: "linear",
-    prevArrow: ".g-features-list-left",
-    nextArrow: ".g-features-list-right",
+    prevArrow: ".h-features-list-left",
+    nextArrow: ".h-features-list-right",
   });
 });
